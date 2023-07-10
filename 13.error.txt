@@ -1,0 +1,11 @@
+// Reference Error  (not defined)
+console.log(x); // ReferenceError
+
+// Syntax Error (Invalid or unexpected token)
+console.log("Hello;)  // SyntaxError
+
+// Type Error (is not a function)
+(5).pop;  // TypeError
+
+// Range Error (radix argument must be between _ & _)
+console.log((10).toString(1)); 

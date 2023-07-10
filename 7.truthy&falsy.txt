@@ -1,0 +1,40 @@
+// Truthy
+    * true
+    * {}
+    * []
+    * 42
+    * "0"
+    * "false"
+    * new Date()
+    * -42
+    * 12n
+    * 3.14
+    * -3.14
+    * Infinity
+    * -Infinity
+
+    // AND (&&) Operator    // If the first operand is truthy, the logical AND operator returns the second operand:
+        true && "dog"
+        // returns "dog"
+
+        [] && "dog"
+        // returns "dog"
+
+
+// Falsy
+    * null
+    * undefined
+    * false
+    * NaN
+    * 0
+    * -0
+    * 0n
+    * ""
+    * document.all
+
+    // AND (&&) Operator    // If the first object is falsy, it returns that object:
+        console.log(false && "dog");
+        // ↪ false
+
+        console.log(0 && "dog");
+        // ↪ 0
