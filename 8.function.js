@@ -147,7 +147,13 @@ function outside() {
 }
 outside(); // This is outside
 
-// Recursion (calling itself)
+// * arrow function
+let arro = () => {
+  console.log("This is arrow function");
+};
+arro();
+
+// * Recursion (calling itself)
 var count = 3;
 function recursion() {
   count--;

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES6 Module Script</title>
+  </head>
+  <body>
+    <h1>This is JavaScript Module.</h1>
+    <script type="module">
+      import { informalGreeting } from "./module.js";
+      informalGreeting("Jane"); // Hello Jane
+    </script>
+    <script type="module">
+      import { informalGreeting, formalGreeting } from "./module.js";
+      import greeting from "./module.js";
+      informalGreeting("John"); // Hello John
+      formalGreeting("Jenny"); // Good day, Jenny
+      greeting(); // Howdy!
+    </script>
+  </body>
+</html>
+
+<!-- script attribute type must be module -->

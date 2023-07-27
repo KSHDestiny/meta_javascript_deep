@@ -28,3 +28,8 @@ if (true) {
 }
 
 console.log(name);
+
+// * template literals ``
+// ! it can create multiple line strings
+// ! it can be interpolate variables  // ${name}
+// ! it can allow expression evaluation   // {1+1+1}

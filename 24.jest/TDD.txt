@@ -1,0 +1,21 @@
+TDD (Test-Driven-Development)
+
+// Traditional Development
+- Receive requirements
+- Write code
+- Test
+
+// Test-driven Development
+- Receive requirements
+- Write failing test
+- Write code to make test pass
+- Code passes test
+- Imporve workable code
+
+
+// Advantages
+* Minimize regressions
+* Proves new implementation is working
+* Automated tests
+* Test implementations
+* Provide documentation
