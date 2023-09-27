@@ -164,3 +164,18 @@ function recursion() {
 }
 
 recursion();
+
+// * currying
+let returnFunc = (greeting) => {
+  let anotherReturnFunc = (farewell) => {
+    let add = (a, b) => {
+      return a + b;
+    };
+    console.log(farewell);
+    return add;
+  };
+  console.log(greeting);
+  return anotherReturnFunc;
+};
+
+console.log(returnFunc("Hello Mello")("Good Bye")(5, 10));
